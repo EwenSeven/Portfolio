@@ -1,0 +1,58 @@
+body{
+    background-image: url('background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+}
+.moi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photomoi{
+    padding-top: 60px;
+    padding-right: 30px;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 800%;
+}
+
+h2{
+    font-size: 800x;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 27px;
+}
+
+nav{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around ;
+    width: 100%;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+ul{
+    background-color: #f4f4f4;
+    font-size: 200%;
+    align-items: center;
+    height: 80px;
+    width: 180px;
+    border-radius: 15px;
+}
